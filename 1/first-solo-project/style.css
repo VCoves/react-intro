@@ -4,10 +4,18 @@
 
 body{
     background: #23252C;
-    width: 317px;    
+    font-family: 'Inter';
+    font-style: normal;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .app{
+    width: 100%;
+    margin: 40px;
     border-radius: 20px;
     width: 317px;
     background: #1A1B21;    
@@ -16,8 +24,6 @@ body{
 .header{
     color: white;
     text-align: center;
-    font-family: 'Inter';
-    font-style: normal;
     margin:0;
 }
 
@@ -67,7 +73,8 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 9px 13px 9px 11px;
+    margin-left: 0px;
+    padding: 9px 10px 9px 0px;
     gap: 8px;
 
     

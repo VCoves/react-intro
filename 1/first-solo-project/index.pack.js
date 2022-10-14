@@ -391,7 +391,7 @@ if (process.env.NODE_ENV === 'production') {
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 exports.default = App;
 
@@ -414,14 +414,14 @@ var _Footer2 = _interopRequireDefault(_Footer);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
-    return _react2.default.createElement(
-        'div',
-        { className: 'app' },
-        _react2.default.createElement('img', { className: 'profile-pic' }),
-        _react2.default.createElement(_Header2.default, null),
-        _react2.default.createElement(_Content2.default, null),
-        _react2.default.createElement(_Footer2.default, null)
-    );
+  return _react2.default.createElement(
+    "div",
+    { className: "app" },
+    _react2.default.createElement("img", { className: "profile-pic" }),
+    _react2.default.createElement(_Header2.default, null),
+    _react2.default.createElement(_Content2.default, null),
+    _react2.default.createElement(_Footer2.default, null)
+  );
 }
 
 /***/ }),
