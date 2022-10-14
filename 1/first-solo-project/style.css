@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background: #23252C;
+    width: 317px;    
+}
+
+.app{
+    border-radius: 20px;
+    width: 317px;
+    background: #1A1B21;    
+}
+
+.header{
+    color: white;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    margin:0;
+}
+
+.profile-pic{
+    border-radius: 10px 10px 0px 0px;
+    content: url(https://fotos.perfil.com/2022/08/01/trim/1280/720/fernando-alonso-1395296.jpg);
+    width: 317px;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 6px;
+}
+
+.job{
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    color: #F3BF99;
+}
+
+.ens{
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 0;
+}
+
+.nav > div {
+    margin:0;
+    margin:0 20px 0 20px;
+    width:50%;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    
+    width: 115px;
+    height: 34px;
+    
+    /* white */
+    background: #FFFFFF;
+    
+    /* gray/300 */
+    border: 1px solid #D1D5DB;
+    
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.email > h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* gray/700 */
+    color: #374151;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.linkedin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    width: 115px;
+    height: 34px;
+
+    background: #5093E2;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.linkedin > h3 {
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    color: #FFFFFF;    
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.content {
+    margin: 0px 35px 0 36px;
+}
+
+.content > h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    padding: 0;
+    color: #F5F5F5;
+}
+
+.aficiones{
+    margin:0;
+}
+
+.interest {
+    margin: 0;
+}
+
+.about, .interest {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+    color: #DCDCDC;
+}
+
+.social {
+    margin: 20px 0px 20px 0px;
+    padding: 0 70px 0 70px;
+    background: #161619;
+    height: 64px;
+    display: flex;
+    justify-content:  space-between;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.social > img {
+    padding: 20px 0px 20px 0px;
+    fill: green;
+    color: red;
+}
